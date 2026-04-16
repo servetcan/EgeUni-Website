@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ege Üniversitesi Öğrenci İşleri - Kayıt, Ders Programları, Burslar">
+    <title>Öğrenci | Ege Üniversitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Üst Bilgi Çubuğu -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="contact-info">
+                    <span>📧 info@ege.edu.tr</span>
+                    <span>📞 +90 (232) 311 10 10</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ana Navigasyon -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Ege Üniversitesi Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <span class="logo-text" style="display:none;">EGE ÜNİVERSİTESİ</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="akademik.html">Akademik</a></li>
+                    <li><a href="arastirma.html">Araştırma</a></li>
+                    <li><a href="ogrenci.html" class="active">Öğrenci</a></li>
+                    <li><a href="index.html#iletisim">İletişim</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button class="dark-mode-toggle" aria-label="Karanlık Mod" id="darkModeToggle" title="Karanlık Modu Aç/Kapat">
+                        <span class="dark-mode-icon">🌙</span>
+                        <span class="light-mode-icon">☀️</span>
+                    </button>
+                    <button class="menu-toggle" aria-label="Menü" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sayfa Başlığı -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Öğrenci İşleri</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Ana Sayfa</a>
+                <span>/</span>
+                <span>Öğrenci</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Hızlı Erişim -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hızlı Erişim</h2>
+                <p class="section-subtitle">Öğrenci işleri ile ilgili hızlı bağlantılar</p>
+            </div>
+            <div class="quick-access-grid">
+                <a href="#" class="quick-access-item">
+                    <div class="quick-access-icon">📝</div>
+                    <h3>Öğrenci Bilgi Sistemi</h3>
+                    <p>Ders kayıtları, notlar ve akademik bilgiler</p>
+                </a>
+                <a href="#" class="quick-access-item">
+                    <div class="quick-access-icon">📅</div>
+                    <h3>Ders Programları</h3>
+                    <p>Dönemlik ders programları ve sınav takvimi</p>
+                </a>
+                <a href="#" class="quick-access-item">
+                    <div class="quick-access-icon">💳</div>
+                    <h3>Burs ve Ödeme</h3>
+                    <p>Burs başvuruları ve ödeme işlemleri</p>
+                </a>
+                <a href="#" class="quick-access-item">
+                    <div class="quick-access-icon">📄</div>
+                    <h3>Belge İşlemleri</h3>
+                    <p>Transkript, öğrenci belgesi ve diploma işlemleri</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Öğrenci Hizmetleri -->
+    <section class="content-section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Öğrenci Hizmetleri</h2>
+                <p class="section-subtitle">Kampüs yaşamınız için gerekli tüm hizmetler</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Yurt ve Barınma</h3>
+                    <p>Öğrenci yurtları, kız ve erkek yurtları hakkında bilgiler ve başvuru süreçleri</p>
+                    <ul class="service-list">
+                        <li>Kredi ve Yurtlar Kurumu Yurtları</li>
+                        <li>Özel Yurt Seçenekleri</li>
+                        <li>Barınma Rehberi</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Yemekhane ve Kafeterya</h3>
+                    <p>Kampüs içi yemekhaneler, kafeteryalar ve yemek menüleri</p>
+                    <ul class="service-list">
+                        <li>Merkez Yemekhane</li>
+                        <li>Fakülte Kafeteryaları</li>
+                        <li>Yemek Kartı İşlemleri</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Sağlık Hizmetleri</h3>
+                    <p>Öğrenci sağlık merkezi, sağlık sigortası ve acil durum hizmetleri</p>
+                    <ul class="service-list">
+                        <li>Öğrenci Sağlık Merkezi</li>
+                        <li>Sağlık Sigortası</li>
+                        <li>Psikolojik Danışmanlık</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚌</div>
+                    <h3>Ulaşım</h3>
+                    <p>Kampüs ulaşımı, servisler ve toplu taşıma bilgileri</p>
+                    <ul class="service-list">
+                        <li>Kampüs İçi Ulaşım</li>
+                        <li>Öğrenci Servisleri</li>
+                        <li>Toplu Taşıma Rehberi</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Kütüphane</h3>
+                    <p>Merkez kütüphane, çalışma alanları ve dijital kaynaklar</p>
+                    <ul class="service-list">
+                        <li>Kütüphane Kataloğu</li>
+                        <li>Çalışma Salonları</li>
+                        <li>Dijital Kaynaklar</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Kariyer Merkezi</h3>
+                    <p>Kariyer danışmanlığı, staj ve iş imkanları</p>
+                    <ul class="service-list">
+                        <li>Kariyer Danışmanlığı</li>
+                        <li>Staj Programları</li>
+                        <li>İş İlanları</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Öğrenci Toplulukları -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Öğrenci Toplulukları</h2>
+                <p class="section-subtitle">Sosyal, kültürel ve sportif aktiviteler</p>
+            </div>
+            <div class="academic-grid">
+                <div class="academic-card">
+                    <div class="academic-icon">🎭</div>
+                    <h3>Kültürel Topluluklar</h3>
+                    <p>Tiyatro, müzik, dans ve diğer kültürel aktiviteler</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">⚽</div>
+                    <h3>Spor Toplulukları</h3>
+                    <p>Futbol, basketbol, voleybol ve diğer spor aktiviteleri</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🤝</div>
+                    <h3>Sosyal Sorumluluk</h3>
+                    <p>Gönüllülük projeleri ve sosyal sorumluluk aktiviteleri</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🔬</div>
+                    <h3>Bilimsel Topluluklar</h3>
+                    <p>Teknik ve bilimsel projeler, yarışmalar ve etkinlikler</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Önemli Tarihler -->
+    <section class="content-section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Önemli Tarihler</h2>
+                <p class="section-subtitle">2024-2025 Akademik Yılı</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Eylül 2024</div>
+                    <div class="timeline-content">
+                        <h3>Kayıt Dönemi</h3>
+                        <p>Yeni öğrenci kayıtları ve ders kayıt işlemleri</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Ekim 2024</div>
+                    <div class="timeline-content">
+                        <h3>Eğitim-Öğretim Başlangıcı</h3>
+                        <p>2024-2025 Güz dönemi başlangıcı</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Ocak 2025</div>
+                    <div class="timeline-content">
+                        <h3>Vize Sınavları</h3>
+                        <p>Güz dönemi vize sınav haftası</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Şubat 2025</div>
+                    <div class="timeline-content">
+                        <h3>Bahar Dönemi</h3>
+                        <p>2024-2025 Bahar dönemi başlangıcı</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ege Üniversitesi</h4>
+                    <p>Bilim, eğitim ve araştırma ile geleceği şekillendiren bir kurum.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="akademik.html">Akademik</a></li>
+                        <li><a href="ogrenci.html">Öğrenci</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li>📧 info@ege.edu.tr</li>
+                        <li>📞 +90 (232) 311 10 10</li>
+                        <li>📍 Bornova, İzmir</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sosyal Medya</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ege Üniversitesi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

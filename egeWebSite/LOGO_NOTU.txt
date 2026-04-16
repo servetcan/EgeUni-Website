@@ -1,0 +1,14 @@
+LOGO DOSYASI HAKKINDA BİLGİ
+
+Bu proje için Ege Üniversitesi'nin resmi logosunu kullanmanız gerekmektedir.
+
+1. Logo dosyasını "logo.png" olarak kaydedin
+2. Logo dosyasını proje klasörüne (index.html ve hakkimizda.html ile aynı klasöre) yerleştirin
+3. Logo bulunamazsa, sayfa otomatik olarak "EGE ÜNİVERSİTESİ" metnini gösterecektir
+
+Logo Özellikleri:
+- Format: PNG (şeffaf arka plan önerilir)
+- Önerilen boyut: En az 200px genişlik
+- Yükseklik: Oran korunarak (logo oranına göre)
+
+

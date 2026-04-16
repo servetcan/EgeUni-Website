@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ege Üniversitesi Araştırma - Projeler, Laboratuvarlar, Yayınlar">
+    <title>Araştırma | Ege Üniversitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <!-- Üst Bilgi Çubuğu -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="contact-info">
+                    <span>📧 info@ege.edu.tr</span>
+                    <span>📞 +90 (232) 311 10 10</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ana Navigasyon -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Ege Üniversitesi Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <span class="logo-text" style="display:none;">EGE ÜNİVERSİTESİ</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="akademik.html">Akademik</a></li>
+                    <li><a href="arastirma.html" class="active">Araştırma</a></li>
+                    <li><a href="ogrenci.html">Öğrenci</a></li>
+                    <li><a href="index.html#iletisim">İletişim</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button class="dark-mode-toggle" aria-label="Karanlık Mod" id="darkModeToggle" title="Karanlık Modu Aç/Kapat">
+                        <span class="dark-mode-icon">🌙</span>
+                        <span class="light-mode-icon">☀️</span>
+                    </button>
+                    <button class="menu-toggle" aria-label="Menü" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sayfa Başlığı -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Araştırma ve Geliştirme</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Ana Sayfa</a>
+                <span>/</span>
+                <span>Araştırma</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Araştırma Özet -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Araştırma Vizyonumuz</h2>
+                <p class="section-subtitle">Bilimsel araştırmalarda öncü, uluslararası standartlarda üretim</p>
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p>Ege Üniversitesi, bilimsel araştırma ve geliştirme faaliyetlerinde öncü bir konumda bulunmaktadır. Üniversitemiz, temel bilimlerden uygulamalı bilimlere, sosyal bilimlerden sağlık bilimlerine kadar geniş bir yelpazede araştırma projeleri yürütmektedir.</p>
+                    <p>Ulusal ve uluslararası düzeyde desteklenen projelerimiz, bilimsel yayınlarımız ve patentlerimiz ile bilgi üretimine katkıda bulunmaktayız. Modern laboratuvarlarımız, araştırma merkezlerimiz ve uzman akademik kadromuz ile araştırma kapasitemizi sürekli geliştirmekteyiz.</p>
+                    <p>Üniversitemiz, TÜBİTAK, Avrupa Birliği, TÜBA ve diğer ulusal ve uluslararası kuruluşlardan destek alan projelerle bilimsel araştırmalarda önemli bir rol oynamaktadır.</p>
+                </div>
+                <div class="research-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Aktif Proje</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2000+</div>
+                        <div class="stat-label">Yayın/Yıl</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Patent</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Laboratuvar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Araştırma Alanları -->
+    <section class="content-section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Araştırma Alanları</h2>
+                <p class="section-subtitle">Geniş bir yelpazede bilimsel araştırma faaliyetleri</p>
+            </div>
+            <div class="academic-grid">
+                <div class="academic-card">
+                    <div class="academic-icon">🔬</div>
+                    <h3>Temel Bilimler</h3>
+                    <p>Fizik, Kimya, Matematik, Biyoloji alanlarında temel bilimsel araştırmalar</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">⚙️</div>
+                    <h3>Mühendislik ve Teknoloji</h3>
+                    <p>Bilgisayar, Elektrik, Makine, İnşaat mühendisliği ve teknoloji araştırmaları</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🌿</div>
+                    <h3>Tarım ve Doğa Bilimleri</h3>
+                    <p>Ziraat, Orman, Çevre bilimleri ve sürdürülebilir tarım araştırmaları</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">💊</div>
+                    <h3>Sağlık Bilimleri</h3>
+                    <p>Tıp, Eczacılık, Hemşirelik ve sağlık bilimleri araştırmaları</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🧠</div>
+                    <h3>Sosyal Bilimler</h3>
+                    <p>İktisat, İşletme, Eğitim, Psikoloji ve sosyal bilimler araştırmaları</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🎨</div>
+                    <h3>Sanat ve Tasarım</h3>
+                    <p>Güzel sanatlar, tasarım ve görsel sanatlar araştırmaları</p>
+                    <a href="#" class="academic-link">Detaylar →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Araştırma Merkezleri -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Araştırma Merkezleri ve Laboratuvarlar</h2>
+                <p class="section-subtitle">Modern altyapı ve uzman ekiplerle araştırma</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>Bilimsel Araştırma Merkezi</h3>
+                    <p>Disiplinler arası araştırma projeleri ve bilimsel işbirlikleri</p>
+                    <ul class="service-list">
+                        <li>Disiplinler arası projeler</li>
+                        <li>Uluslararası işbirlikleri</li>
+                        <li>Bilimsel yayın desteği</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧪</div>
+                    <h3>Teknoloji Transfer Ofisi</h3>
+                    <p>Bilimsel bulguların ticarileştirilmesi ve teknoloji transferi</p>
+                    <ul class="service-list">
+                        <li>Patent başvuruları</li>
+                        <li>Lisanslama işlemleri</li>
+                        <li>Sanayi işbirlikleri</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Bilgisayar Laboratuvarları</h3>
+                    <p>Yüksek performanslı bilgisayar sistemleri ve yazılım geliştirme</p>
+                    <ul class="service-list">
+                        <li>Yapay zeka araştırmaları</li>
+                        <li>Veri bilimi projeleri</li>
+                        <li>Yazılım geliştirme</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>Biyoteknoloji Laboratuvarları</h3>
+                    <p>Biyoteknoloji ve genetik araştırmaları için modern laboratuvarlar</p>
+                    <ul class="service-list">
+                        <li>Genetik araştırmalar</li>
+                        <li>Biyomühendislik</li>
+                        <li>İlaç geliştirme</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Enerji Araştırma Merkezi</h3>
+                    <p>Yenilenebilir enerji ve enerji verimliliği araştırmaları</p>
+                    <ul class="service-list">
+                        <li>Güneş enerjisi</li>
+                        <li>Rüzgar enerjisi</li>
+                        <li>Enerji depolama</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌍</div>
+                    <h3>Çevre Araştırma Merkezi</h3>
+                    <p>Çevre bilimleri ve sürdürülebilirlik araştırmaları</p>
+                    <ul class="service-list">
+                        <li>İklim değişikliği</li>
+                        <li>Çevre kirliliği</li>
+                        <li>Sürdürülebilirlik</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uluslararası İşbirlikleri -->
+    <section class="content-section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Uluslararası İşbirlikleri</h2>
+                <p class="section-subtitle">Dünya çapında bilimsel işbirlikleri ve ortaklıklar</p>
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p>Ege Üniversitesi, Avrupa, Amerika, Asya ve diğer kıtalardan üniversiteler ve araştırma kurumları ile güçlü işbirlikleri yürütmektedir. Erasmus+ programı, Horizon Europe, COST Action ve diğer uluslararası araştırma programları kapsamında aktif olarak yer almaktayız.</p>
+                    <p>Uluslararası araştırma projelerimiz, ortak yayınlarımız ve öğrenci-akademisyen değişim programlarımız ile küresel bilim camiasına katkıda bulunmaktayız.</p>
+                </div>
+                <div class="international-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Ülke</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Ortaklık</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Ortak Proje</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yayınlar ve Başarılar -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Yayınlar ve Başarılar</h2>
+                <p class="section-subtitle">Bilimsel yayınlar ve akademik başarılar</p>
+            </div>
+            <div class="academic-grid">
+                <div class="academic-card">
+                    <div class="academic-icon">📊</div>
+                    <h3>Bilimsel Yayınlar</h3>
+                    <p>Yıllık 2000+ bilimsel yayın ile Türkiye'nin önde gelen araştırma üniversitelerinden biri</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🏆</div>
+                    <h3>Ödüller ve Başarılar</h3>
+                    <p>Ulusal ve uluslararası düzeyde ödüller ve akademik başarılar</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">📈</div>
+                    <h3>Araştırma Bütçesi</h3>
+                    <p>Yıllık milyonlarca liralık araştırma bütçesi ile projeler desteklenmektedir</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">🌐</div>
+                    <h3>Atıf Oranları</h3>
+                    <p>Yüksek atıf oranları ile uluslararası bilim camiasında tanınırlık</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ege Üniversitesi</h4>
+                    <p>Bilim, eğitim ve araştırma ile geleceği şekillendiren bir kurum.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="akademik.html">Akademik</a></li>
+                        <li><a href="arastirma.html">Araştırma</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li>📧 info@ege.edu.tr</li>
+                        <li>📞 +90 (232) 311 10 10</li>
+                        <li>📍 Bornova, İzmir</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sosyal Medya</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ege Üniversitesi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
